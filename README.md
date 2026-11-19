@@ -20,3 +20,10 @@ I completed the challenge: 5
 I feel good about my code: 4
 I'm not sure if my constructors are setup cleanly...
 ```
+
+
+## Live Demo
+
+[Open Simple API Restaurant](https://simple-api-restaurant-hlhu.onrender.com/)
+
+The front end is deployed as a Render Static Site. It retrieves data from its external API directly in the browser; it does not require a database or a separately hosted application server.
