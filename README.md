@@ -1,29 +1,18 @@
-# 🍽️ Project: Simple API 2 - Restaurant
+# Simple API Restaurant — Restaurant Recipe Finder
 
-### Goal: Build a simple front-end app that displays data returned from an api that would be beneficial to someone working at or managing a restaurant. 
+This project is a browser-based recipe finder for people working in or managing a restaurant. It uses TheMealDB API to search for meals by name or retrieve a random meal, then displays the recipe information returned by the API.
 
-### How to submit your code for review:
+## How it works
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+- **Search meals:** Enter a meal name, such as chicken or pasta, and submit the form. The app sends the search term to TheMealDB's search endpoint.
+- **Find a random meal:** Select **Random Meal** to request a randomly selected recipe.
+- **View recipe details:** Each result displays the meal name and image, category, cuisine/area, available ingredients and measurements, and preparation instructions.
+- **Handle API responses:** The app shows a loading message, reports when no matching meals are returned, and displays an error if the API request or result rendering fails. Console messages help diagnose request and rendering issues.
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
-
+The front end is built with HTML, CSS, and vanilla JavaScript. It fetches data directly from TheMealDB in the browser and does not require a database or a separately hosted application server.
 
 ## Live Demo
 
 [Open Simple API Restaurant](https://simple-api-restaurant-hlhu.onrender.com/)
 
-The front end is deployed as a Render Static Site. It retrieves data from its external API directly in the browser; it does not require a database or a separately hosted application server.
+The front end is deployed as a Render Static Site.
