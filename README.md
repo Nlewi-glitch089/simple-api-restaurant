@@ -1,25 +1,20 @@
-# Restaurant Information Lookup
+# Simple API Restaurant — Restaurant Recipe Finder
 
-A browser-based API exercise that presents information intended to be useful to someone working in or managing a restaurant.
+This project is a browser-based recipe finder. It uses [TheMealDB API](https://www.themealdb.com/api.php) to search for meals by name or retrieve a random meal, then displays the recipe information returned by the API.
+
+## How It Works
+
+- **Search meals:** Enter a meal name, such as chicken or pasta, and submit the form to search TheMealDB.
+- **Find a random meal:** Select the random-meal option to request a randomly selected recipe.
+- **View recipe details:** Results display the meal name and image, category, cuisine/area, ingredients and measurements, and preparation instructions.
+- **Handle API responses:** The app provides loading feedback, handles searches with no matching meals, and reports request or rendering errors. Console messages help diagnose issues.
 
 ## Technology
 
-HTML, CSS, JavaScript, external API requests
+The front end uses HTML, CSS, and vanilla JavaScript. It fetches data directly from TheMealDB in the browser and does not require a database or a separately hosted application server.
 
-## Run locally
+## Live Demo
 
-Clone the repository, run `git switch answer`, and open `index.html` in a browser. Internet access is required for external API requests.
+[Open Simple API Restaurant](https://simple-api-restaurant-hlhu.onrender.com/)
 
-## Solution code
-
-The completed implementation is on the `answer` branch. Switch to it with `git switch answer` after cloning.
-
-[View the solution branch on GitHub](https://github.com/Nlewi-glitch089/simple-api-restaurant/tree/answer).
-
-## Project context
-
-This repository began as a Resilient Coders / bootcamp coding exercise. The original assignment prompt is preserved in the repository history; this README describes the implementation branch so visitors can understand what the code does and how to try it.
-
-## Hosting
-
-These are small learning exercises, not currently documented as live hosted applications. They can be run locally using the instructions above. A static project could be published with GitHub Pages if a public demo is useful; the Node server projects need a Node-capable host.
+The front end is deployed as a Render Static Site.
